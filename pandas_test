@@ -1,0 +1,18 @@
+
+import pandas as pd
+import click
+import sys
+import os
+from mlhub.pkg import get_cmd_cwd
+
+
+
+def hello():
+    os.chdir(get_cmd_cwd())
+    print(os. getcwd())
+    print(get_cmd_cwd())
+
+
+
+if __name__ == '__main__':
+    hello()
